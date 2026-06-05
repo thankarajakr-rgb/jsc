@@ -189,7 +189,7 @@ if((y%400 == 0) || (y%4 == 0 && y%100 !=0)){
 else{
     console.log(+y, "Not a Leap Year")
 }
-*/
+
 
 
 let age=19
@@ -198,6 +198,166 @@ console.log(result)
 
 let a= null ?? "Not has a value"
 console.log(a)
+
+
+let role="Admin"
+
+switch (role){
+    case "user" :
+        {console.log("User Logged in")}
+        break;
+    case "Admin":
+        {
+            console.log("Admin Looged in")
+        } 
+        break;  
+    default:
+        {
+            console.log("Invalid User")
+        }     
+}
+
+
+
+
+for (let i=0 ; i<=5 ; i++)
+{
+    console.log(i)
+}
+    
+
+
+let s="iamThankarajaK World EntertaineraeIoUaeA"
+let vowel=0
+
+for (let j=0;j<=s.length;j++){
+
+    if (s.charAt(j).toLowerCase()=='a' || s.charAt(j).toLowerCase()=='e' || s.charAt(j).toLowerCase()=='i' || s.charAt(j).toLowerCase()=='o' || s.charAt(j).toUpperCase()=='u' )
+    {
+        vowel+=1
+    }
+    
+}
+console.log(vowel)
+console.log(s.length)
+
+
+
+for (i=0 ; i<=10 ; i++){
+    if (i%2==0)
+    console.log(i)
+}
+
+
+//for 2nd table
+for (i=1 ; i<=20 ; i++){
+    console.log(i+"*2"+"="+i*2)
+}
+    
+
+
+// for tables till 20
+
+for (i=1; i<=10;i++){
+    console.log(i+"table")
+    for (k=1 ; k<=20 ; k++){
+        console.log(k+ "*" +i +"=" + k*i )
+    }
+   
+}
+
+
+
+for (i=0;i<=5;i++){
+    console.log("*")
+    for(j=1;j<=1;j++)
+        {
+        console.log(i+"*")
+    }
+
+}
+ 
+
+let friendsname = ['monisha','indrani','indhumathi','swathi','kaviya','manorammal']
+
+for (i=0;i<friendsname.length;i++){
+    console.log(friendsname[i].split("").reverse().join(""))
+}
+      
+
+function detail(name,age, city="chennai"){
+    console.log(`My Name is ${name} My age is ${age} My city is ${city}`)
+}
+
+detail("raja",30)
+detail("thanka",31,"nilgiri")
+ 
+
+function add(a,b){
+        return a+b
+}
+
+function sub(a,b){
+        return a-b
+}
+
+function mul(a,b){
+        return a*b
+}
+
+function div(a,b){
+        return a/b
+}
+
+function all (n1,n2){
+ 
+   let a=  add(n1,n2)
+  let b=  sub(n1,n2)
+    mul(n1,n2)
+    div(n1,n2)
+
+return `the sum is ${a} the sub is ${b}`
+   
+}
+
+let a =all (5,10)
+console.log(a)
+
+
+
+function fact(n){
+    if(n==0 || n==1){
+        return 1
+    }
+    else{
+        return n*fact(n-1) // function called by itself 
+    }
+
+}
+console.log(fact(5)).  // 5*4*3*2*1
+
+
+
+function add(a,b){
+    console.log (a+b)
+}
+add(1,2)
+
+let sub = (a,b)=>(a-b)
+
+console.log(sub(5,10))
+
+*/
+function add(a,b){
+    let c=0
+    if (b>10){
+        c = ( a + (100 % a) )
+    }
+    console.log(c)
+}
+
+add(1000,12)
+
 
 
 
