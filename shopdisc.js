@@ -8,7 +8,7 @@ function calculatediscunt(amount,membership){
         discount=amount*0.10;
     }
     else{
-        discount=amount*0.5;
+        discount=amount*0.05;
     }
     
     if(membership=== "premium"){
