@@ -54,7 +54,7 @@
 //    console.log(" ".repeat(i) + "*" + " ".repeat((z - i - 1) * 2) +"*" );
 //}
 
-let n=4
+/*let n=4
 for (i=0 ; i<n-1 ; i++){
     console.log(" ".repeat(i)+ " *" + " ".repeat((n-i-1)*2)+"*")
 }
@@ -64,7 +64,50 @@ let z=5
 for (i=3 ; i>0 ;i--){
     console.log(" ".repeat(i)+"*"+ " ".repeat((z-i-1)*2)+"*")
 }
- 
 
+let rows = 5;
 
+for (let i = 1; i <= rows; i++) {
+    let pattern = "";
+
+    // spaces
+    for (let j = 1; j <= rows - i; j++) {
+        pattern += " ";
+    }
+
+    // stars
+    for (let k = 1; k <= (2 * i - 1); k++) {
+        pattern += "*";
+    }
+
+    console.log(pattern);
+} 
+
+let n = 5;
+
+for (let i = 1; i <= n; i++) {
+    console.log(
+        " ".repeat(n - i) +
+        "*".repeat(2 * i - 1)
+    );
+}
+ */
+
+let rows = 5;
+
+for (let i = 1; i <= rows; i++) {
+    let pattern = "";
+
+    // spaces
+    for (let j = 1; j <= rows - i; j++) {
+        pattern += " ";
+    }
+
+    // stars
+    for (let k = 1; k <= (2 * i - 1); k++) {
+        pattern += "*";
+    }
+
+    console.log(pattern);
+} 
 

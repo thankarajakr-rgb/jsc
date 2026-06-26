@@ -1,4 +1,4 @@
-let a="i love java"
+/*let a="i love java"
 
 console.log(a.toUpperCase())
 console.log(a.toLowerCase())
@@ -10,7 +10,7 @@ console.log(a.trimEnd().length)
 console.log(a.slice(0,5))
 console.log(a.substring(0,5))
 console.log(a.includes('u'))
-console.log(a.startsWith('i'.toUpperCase()))
+console.log(a.startsWith('m'.toUpperCase()))
 console.log(a.endsWith('n'))
 console.log(a.indexOf("u",a.indexOf('u',a.indexOf('u')+1)+1))
 console.log(a.replace("java","python"))
@@ -329,4 +329,26 @@ for(let i=0;i<friendsname.length;i++){
         console.log(friendsname[i])
     }
 
-}
+}*/
+
+let k="ilove java"
+
+console.log(k)
+console.log(k.toUpperCase())
+console.log(k.toLowerCase())
+console.log(k.length)
+console.log(k.trim().length)
+console.log(k.trimStart().length)
+console.log(k.trimEnd().length)
+console.log(k.slice(0,5))
+console.log(k.substring(0,5))
+console.log(k.includes('x'))
+console.log(k.startsWith('i'))
+console.log(k.endsWith('a'))
+console.log(k.indexOf('a',k.indexOf('a')+1))
+console.log(k.replace("java", "pyt"))
+console.log(k.split(""))
+console.log("i love Deepishala".repeat(9))
+console.clear()
+console.log(k.charAt(6))
+console.log(k.charCodeAt(0))

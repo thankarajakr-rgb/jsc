@@ -19,12 +19,14 @@ console.log("TOtal vowels" +"  "+count)*/
 
 let p = "This is a paragraph which consist of vowles aei";
 let k = p.split(" ")
+console.log(k)
 
 
 k.forEach((v) => {
     let count = 0;
    
     let j=v.toLowerCase().split("")
+    console.log(j)
    
    
     j.forEach(v => {
